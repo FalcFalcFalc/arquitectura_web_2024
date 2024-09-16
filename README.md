@@ -1,4 +1,12 @@
 # Repositorio para Arquitectura Web
 ## Segundo cuatrimetre 2024
-### Juan Falcone
-por ahora tengo pensado hacer una api de ejemplo de app de delivery
+## Juan Falcone
+### Recursos accesibles
+- Estacion
+- Retiro
+- Bicicleta
+- Bicicletas en estación (recorre todos los tickets cerrados y abiertos para concretar qué bicicletas están en la estacion)
+### Métodos Post
+- Retirar Bicicleta -> Crea ticket
+### Métodos Patch
+- Depositar bicicleta -> Cierra ticket
