@@ -14,9 +14,15 @@
 - Bicicleta
   - por estacion
   - por usuario que la haya utilizado
+  - por necesidad de reparación
+- Usuario
+  - por bicicleta utilizada
+  - por deuda
+  - por historial de deudas
+  - por utilizacion de estacion
 ### Métodos Post
 - Retirar Bicicleta
   - Dado usuario y bicicleta, crea un ticket
 ### Métodos Patch
 - Depositar bicicleta
-  - Dado una estación, actualiza el ticket
+  - Dado una estación y un estado de la bicicleta, actualiza el ticket y en caso de ser necesario penaiza al usuario
